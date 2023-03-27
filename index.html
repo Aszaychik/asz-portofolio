@@ -4,10 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="Author" content="aszaychik" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/dist/assets/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/f79ec98915.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              main: "#F9F5EB",
+              "color-primary": "#002B5B",
+              "color-secondary": "#EA5455",
+            },
+          },
+        },
+      };
+    </script>
 
-    <!-- <link href="assets/style.css" rel="stylesheet" /> -->
     <title>Protofolio</title>
   </head>
   <body class="bg-main text-color-primary">
@@ -48,7 +60,7 @@
       </article>
       <aside class="flex justify-center items-center relative mx-auto isolate px-6 pt-14 lg:px-8">
         <figure class="flex justify-center items-center" style="flex-direction: column; gap: 24px">
-          <img class="rounded-full" src="assets/Agoes_Budi_Satriya.JPG" width="400" alt="" />
+          <img class="rounded-full" src="Agoes_Budi_Satriya.JPG" width="400" alt="" />
           <figcaption class="text-4xl font-bold flex justify-center items-center" style="flex-direction: column; gap: 24px">
             Skill :
             <div class="flex justify-center items-center" style="gap: 24px">
